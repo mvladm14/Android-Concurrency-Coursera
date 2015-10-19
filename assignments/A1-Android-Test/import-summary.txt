@@ -1,0 +1,93 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* A1-Android-Test.iml
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\ => app\src\main\java\
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\.gitignore => app\src\main\resources\.gitignore
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\.idea\.name => app\src\main\resources\.idea\.name
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\.idea\A1-Android-App.iml => app\src\main\resources\.idea\A1-Android-App.iml
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\.idea\compiler.xml => app\src\main\resources\.idea\compiler.xml
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\.idea\copyright\profiles_settings.xml => app\src\main\resources\.idea\copyright\profiles_settings.xml
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\.idea\misc.xml => app\src\main\resources\.idea\misc.xml
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\.idea\modules.xml => app\src\main\resources\.idea\modules.xml
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\.idea\vcs.xml => app\src\main\resources\.idea\vcs.xml
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\.idea\workspace.xml => app\src\main\resources\.idea\workspace.xml
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\.project => app\src\main\resources\.project
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\A1-Android-App.iml => app\src\main\resources\A1-Android-App.iml
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\AndroidManifest.xml => app\src\main\resources\AndroidManifest.xml
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\ic_launcher-web.png => app\src\main\resources\ic_launcher-web.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\proguard-project.txt => app\src\main\resources\proguard-project.txt
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\project.properties => app\src\main\resources\project.properties
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-hdpi\being.png => app\src\main\resources\res\drawable-hdpi\being.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-hdpi\gray_dot.png => app\src\main\resources\res\drawable-hdpi\gray_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-hdpi\green_dot.png => app\src\main\resources\res\drawable-hdpi\green_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-hdpi\palantir.png => app\src\main\resources\res\drawable-hdpi\palantir.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-hdpi\purple_dot.png => app\src\main\resources\res\drawable-hdpi\purple_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-hdpi\red_dot.png => app\src\main\resources\res\drawable-hdpi\red_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-hdpi\yellow_dot.png => app\src\main\resources\res\drawable-hdpi\yellow_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-ldpi\being.png => app\src\main\resources\res\drawable-ldpi\being.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-ldpi\gray_dot.png => app\src\main\resources\res\drawable-ldpi\gray_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-ldpi\green_dot.png => app\src\main\resources\res\drawable-ldpi\green_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-ldpi\palantir.png => app\src\main\resources\res\drawable-ldpi\palantir.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-ldpi\purple_dot.png => app\src\main\resources\res\drawable-ldpi\purple_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-ldpi\red_dot.png => app\src\main\resources\res\drawable-ldpi\red_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-ldpi\yellow_dot.png => app\src\main\resources\res\drawable-ldpi\yellow_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-mdpi\being.png => app\src\main\resources\res\drawable-mdpi\being.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-mdpi\gray_dot.png => app\src\main\resources\res\drawable-mdpi\gray_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-mdpi\green_dot.png => app\src\main\resources\res\drawable-mdpi\green_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-mdpi\palantir.png => app\src\main\resources\res\drawable-mdpi\palantir.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-mdpi\purple_dot.png => app\src\main\resources\res\drawable-mdpi\purple_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-mdpi\red_dot.png => app\src\main\resources\res\drawable-mdpi\red_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-mdpi\yellow_dot.png => app\src\main\resources\res\drawable-mdpi\yellow_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-xhdpi\being.png => app\src\main\resources\res\drawable-xhdpi\being.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-xhdpi\gray_dot.png => app\src\main\resources\res\drawable-xhdpi\gray_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-xhdpi\green_dot.png => app\src\main\resources\res\drawable-xhdpi\green_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-xhdpi\palantir.png => app\src\main\resources\res\drawable-xhdpi\palantir.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-xhdpi\purple_dot.png => app\src\main\resources\res\drawable-xhdpi\purple_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-xhdpi\red_dot.png => app\src\main\resources\res\drawable-xhdpi\red_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-xhdpi\yellow_dot.png => app\src\main\resources\res\drawable-xhdpi\yellow_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-xxhdpi\being.png => app\src\main\resources\res\drawable-xxhdpi\being.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-xxhdpi\gray_dot.png => app\src\main\resources\res\drawable-xxhdpi\gray_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-xxhdpi\green_dot.png => app\src\main\resources\res\drawable-xxhdpi\green_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-xxhdpi\palantir.png => app\src\main\resources\res\drawable-xxhdpi\palantir.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-xxhdpi\purple_dot.png => app\src\main\resources\res\drawable-xxhdpi\purple_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-xxhdpi\red_dot.png => app\src\main\resources\res\drawable-xxhdpi\red_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\drawable-xxhdpi\yellow_dot.png => app\src\main\resources\res\drawable-xxhdpi\yellow_dot.png
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\layout\being_list_element.xml => app\src\main\resources\res\layout\being_list_element.xml
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\layout\gazing_simulation_activity.xml => app\src\main\resources\res\layout\gazing_simulation_activity.xml
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\layout\palantir_list_element.xml => app\src\main\resources\res\layout\palantir_list_element.xml
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\layout\palantiri_activity.xml => app\src\main\resources\res\layout\palantiri_activity.xml
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\values-w820dp\dimens.xml => app\src\main\resources\res\values-w820dp\dimens.xml
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\values\dimens.xml => app\src\main\resources\res\values\dimens.xml
+* E:\POSA-15-master\assignments\assignment1\A1-Android-App\res\values\strings.xml => app\src\main\resources\res\values\strings.xml
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
